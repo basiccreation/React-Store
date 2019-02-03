@@ -8,7 +8,7 @@ class ProductProvider extends Component {
   state = {
     products:[],
     detailProduct: detailProduct,
-    cart: storeProducts, // set back to empty array once cart is set up: [],
+    cart: [],
     modalOpen: false,
     modalProduct: detailProduct,
     cartSubTotal:0,
