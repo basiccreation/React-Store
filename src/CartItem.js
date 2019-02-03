@@ -12,6 +12,7 @@ return(
         className="img-fluid"
         alt = "product"
         />
+      </div>
       <div className="col-10 mx-auto col-lg-2">
         <span className="d-lg-none">product :  </span>
         {title}
@@ -38,7 +39,6 @@ return(
           <strong>Item total :  $ {total}</strong>
         </div>
 
-      </div>
     </div>
   )
 }
