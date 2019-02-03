@@ -24,6 +24,7 @@ return(
           <div className="d-flex justify-content-center">
             <div>
               <span className="btn btn-blac kmx-1" onClick={()=>decrement(id)}></span>
+            
             </div>
           </div>
         </div>
