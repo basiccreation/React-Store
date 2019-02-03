@@ -35,7 +35,7 @@ return(
         </div>
       </div>
         <div className="col-10 mx-auto col-lg-2">
-          <strong>Item total : $ {total}</strong>
+          <strong>Item total :  $ {total}</strong>
         </div>
 
       </div>
