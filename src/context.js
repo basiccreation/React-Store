@@ -85,7 +85,7 @@ removeItem = (id) => {
   console.log("this is removeItem method");  
 }
 
-clearCart = (id) => {
+clearCart = () => {
   console.log("this is clearCart method");  
 }
 
