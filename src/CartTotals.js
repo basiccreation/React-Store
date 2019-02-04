@@ -14,17 +14,17 @@ export default function CartTotals({value}) {
         </Link>
         <h5>
           <span className="text-title">
-            subtotal :</span>
+            subtotal:  </span>
             <stong>$ {cartSubTotal}</stong>
         </h5>
             <h5>
           <span className="text-title">
-            tax :</span>
+            tax:  </span>
             <stong>$ {cartTax}</stong>
             </h5>
           <h5>
           <span className="text-title">
-            CartTotal :</span>
+            CartTotal:  </span>
             <stong>$ {cartTotal}</stong>
         </h5>
       </div>
