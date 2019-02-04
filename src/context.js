@@ -86,8 +86,13 @@ removeItem = (id) => {
 }
 
 clearCart = () => {
-  console.log("this is clearCart method");  
-}
+    this.setState (() => {
+      return { cart: []};
+    },() => {
+      this.setProducts();
+      this.addTotals();
+    });
+};
 
 addTotals = (id) => {
   let subTotal = 0;
